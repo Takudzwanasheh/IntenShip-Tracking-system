@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>login </title>
+</head>
+<body>
+    <style>
+        input{
+            position: relative;
+            padding: 15px 20px;
+            outline: none;
+            border-radius: 5px;
+            transition: 0.4s;
+            height: 10px;
+            width: 250px;
+            background: whitesmoke;
+            
+        }
+        input:first-child{
+           border-radius: 5px;
+        }
+        input:last-child{
+            border-radius: 5px;
+        }
+        .login{
+           background: whitesmoke;
+           box-sizing: content-box;
+           padding: 10px;
+           margin-top: 30px;
+           
+        }
+        div{
+            width: 350px;
+        }
+        .options{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin-top: 20px;
+            margin-left: 800px;
+
+        }
+        .button{
+                margin-left: 40%;
+                margin-top: 10px;
+                background-color: transparent;
+                box-sizing: content-box;
+        }
+        .submitbtn{
+            height: 40px;
+            width: 80px;
+            background: transparent;
+            color: black;
+        }
+        #submit{
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+        
+
+        <div class="options">
+            <a href="homePage.html">Home</a>
+            <a href="">Lecture</a>
+            <a href="">Supervisor</a>
+    
+        </div><hr>
+        <img src="image.png" alt="uzLogo" style="height: 100px; width: 100px;">
+    <div class="login">
+        <h4 style="background-color: whitesmoke;">Student</h4>
+        <input type="text" placeholder="firstname">
+        <input type="text" placeholder="Password">
+        <!-- <input type="radio" id="html" name="forget-password">
+       <label for="html" style="background-color: whitesmoke;"> forget Password</label> -->
+        <div class="button">
+            <button class="submitbtn" type="submit">Sign up </button>
+        </div>
+    </div>
+</body>
+</html>
